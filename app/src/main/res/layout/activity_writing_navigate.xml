@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF3FF"
+    tools:context=".writingNavigate">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutDialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="9dp">
+
+
+        <TextView
+            android:id="@+id/successDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/regular"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:text="තෝරන්න "
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/layoutDialog" />
+
+        <ImageView
+            android:id="@+id/cancelmage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/cancel02"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/layoutDialog" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="180dp"
+            android:layout_marginBottom="80dp">
+
+
+            <GridLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="#FCF3FF"
+                android:columnCount="2"
+                android:rowCount="2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <LinearLayout
+                    android:id="@+id/videoPlay"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_row="0"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/navigation_block01"
+                    android:orientation="vertical"
+                    android:textSize="18sp"
+                    app:cornerRadius="14dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/layoutDialog">
+
+                    <ImageView
+                        android:id="@+id/blog01"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="50dp"
+                        android:paddingTop="00dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/video_library" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/regular"
+                        android:padding="5dp"
+                        android:text="පාඩම් බලමු "
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gamePlay"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_row="1"
+                    android:layout_rowWeight="1"
+                    android:layout_column="0"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/navigation_block01"
+                    android:orientation="vertical"
+                    android:textSize="18sp"
+                    app:cornerRadius="14dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/layoutDialog">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="50dp"
+                        android:paddingTop="00dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/gaming_console" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="top|center"
+                        android:layout_marginTop="0dp"
+                        android:fontFamily="@font/regular"
+                        android:gravity="center_horizontal"
+                        android:padding="5dp"
+                        android:text=" ක්‍රීඩාවට යමු  "
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </GridLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

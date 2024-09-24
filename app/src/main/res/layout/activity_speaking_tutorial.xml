@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".writingTutorial"
+    android:background="#F3FAFF"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#F3FAFF">
+        <ImageView
+            android:id="@+id/btnHome"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/arrow_back_ios_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:fontFamily="@font/test02"
+            android:gravity="center"
+            android:text="lshjk mdvu"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_35ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="2dp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/_290sdp"
+        android:layout_height="@dimen/_230sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_60sdp"
+        android:background="@drawable/border">
+        <VideoView
+            android:id="@+id/video"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_8sdp"
+            />
+    </FrameLayout>
+
+</LinearLayout>

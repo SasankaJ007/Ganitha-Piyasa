@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF3F3"
+    tools:context=".CountingLevelBoard">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#FFF3F3"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/btnHome"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/arrow_back_ios_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/test02"
+            android:text="ld,h ukskak"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="italic"
+            app:layout_constraintBottom_toBottomOf="@+id/btnScore"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnHome" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtShowLevel"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="160dp"-->
+<!--            android:layout_marginTop="45dp"-->
+<!--            android:fontFamily="@font/aclonica"-->
+<!--            android:gravity="center"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:text="0"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtShowLevel2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="182dp"-->
+<!--            android:layout_marginTop="45dp"-->
+<!--            android:fontFamily="@font/aclonica"-->
+<!--            android:gravity="center"-->
+<!--            android:paddingLeft="10dp"-->
+<!--            android:text="/ 15"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+        <ImageView
+            android:id="@+id/btnScore"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_baseline_school_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/block03but"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="3"
+            android:rowCount="5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="#FFF3F3">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw01"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:tag="level1">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="2"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <!--                <RatingBar-->
+                <!--                    android:id="@+id/LevelR01"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:numStars="3"-->
+                <!--                    android:stepSize="1"-->
+                <!--                    android:progressTint="@color/block1color"-->
+                <!--                    android:layout_gravity="left"-->
+                <!--                    android:scaleY="0.6"-->
+                <!--                    android:scaleX="0.6"-->
+                <!--                    />-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:padding="7dp"
+                    android:text="Level 01"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw02"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level2">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 02"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw03"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level3">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 03"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw04"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level4">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level04"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 04"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw05"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level5">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 05"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw06"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level6">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 06"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw07"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                android:tag="level7"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 07"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw08"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level8">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level08"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 08"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw09"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="2"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level9">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level09"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 09"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw10"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level10">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 10"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level11">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 11"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="3"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="20dp"
+                android:tag="level12">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 12"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw13"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp"
+                android:tag="level13">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 13"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw14"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp"
+                android:tag="level14">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 14"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cw15"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_row="4"
+                android:layout_rowWeight="1"
+                android:layout_column="2"
+                android:layout_columnWeight="1"
+                android:layout_margin="10dp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_weight="1"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="5dp"
+                android:tag="level15">
+
+                <lk.learningApp.helper.UIUtils.NonSwipeRatingBar
+                    android:id="@+id/level15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/block1color"
+                    app:currentStar="1"
+                    app:maxStar="3"
+                    app:minStar="0"
+                    app:padding="3dp"
+                    app:starHeight="30dp"
+                    app:starWidth="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/archivo_black"
+                    android:text="Level 15"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:padding="7dp"/>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:id="@+id/navigateGame"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/block03but"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/regular"
+            android:padding="10dp"
+            android:paddingStart="50dp"
+            android:text="        mgka .ksuq"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

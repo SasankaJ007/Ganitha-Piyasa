@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="lk.learningApp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LearningApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".writingTutorial"
+            android:exported="false" />
+        <activity
+            android:name=".CountingTutorial"
+            android:exported="false" />
+        <activity
+            android:name=".SpeakingTutorial"
+            android:exported="false" />
+        <activity
+            android:name=".FormulaTutorial"
+            android:exported="false" />
+        <activity
+            android:name=".progress"
+            android:exported="false" />
+        <activity
+            android:name=".formulaNavigate"
+            android:exported="false" />
+        <activity
+            android:name=".countingNavigate"
+            android:exported="false" />
+        <activity
+            android:name=".writingNavigate"
+            android:exported="false" />
+        <activity
+            android:name=".speakingNavigate"
+            android:exported="false" />
+        <activity
+            android:name=".FormulaLose"
+            android:exported="false" />
+        <activity
+            android:name=".CountingLose"
+            android:exported="false" />
+        <activity
+            android:name=".WritingLose"
+            android:exported="false" />
+        <activity
+            android:name=".FormulaWin"
+            android:exported="false" />
+        <activity
+            android:name=".CountingWin"
+            android:exported="false" />
+        <activity
+            android:name=".WritingWin"
+            android:exported="false" />
+        <activity
+            android:name=".SpeakingLose"
+            android:exported="false" />
+        <activity
+            android:name=".SpeakingWin"
+            android:exported="false" />
+        <activity
+            android:name=".FormulaLevelBoard"
+            android:exported="false" />
+        <activity
+            android:name=".CountingLevelBoard"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".speaking"
+            android:exported="false" />
+        <activity
+            android:name=".ScoreBoard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WritingLevelBoard"
+            android:exported="false" />
+        <activity
+            android:name=".Formula"
+            android:exported="false" />
+        <activity
+            android:name=".counting"
+            android:exported="false" />
+        <activity
+            android:name=".writing"
+            android:exported="false" />
+        <activity
+            android:name=".SpeakingLevelBoard"
+            android:exported="false" />
+        <activity
+            android:name=".signUp"
+            android:exported="false"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

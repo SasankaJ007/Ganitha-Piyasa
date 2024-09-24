@@ -1,0 +1,177 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/arrow_back_ios_24.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/bgcontent.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/black_board.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/block01but.xml" value="0.2535" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/block02but.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/block03but.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/block04but.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/block1bg.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/block1bgcolor.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/blog01bg.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/blog02bg.xml" value="0.192" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/blog03bg.xml" value="0.192" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/blog04bg.xml" value="0.192" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/clickerasebg.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/curves.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/dialog01bg.xml" value="0.2255" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/dialog02bg.xml" value="0.176" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/dialog03bg.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/dialog04bg.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/edittext_bkg.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/edittextblog1.xml" value="0.192" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/edittextblog2.xml" value="0.192" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/edittextblog3.xml" value="0.192" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/edittextblog4.xml" value="0.192" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/erasebg.xml" value="0.2255" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/ic_baseline_school_24.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.256" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/ic_customstar_block01.xml" value="0.256" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/innerbutton.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/levelcorner.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/levelgame01.xml" value="0.1565" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/levelgame02.xml" value="0.1565" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/levelgame03.xml" value="0.1455" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/levelgame04.xml" value="0.1565" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/navigation_block01.xml" value="0.1905" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/rectangle_1.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/speaker01.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/speaker02.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/star_border_blog01.xml" value="0.2235" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/star_empty.xml" value="0.2235" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/star_filled.xml" value="0.2235" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/starsize.xml" value="0.227" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/tab_bkg.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/topbarbotton.xml" value="0.2545" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/udiotrack.xml" value="0.2395" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/viewpager_bkg.xml" value="0.255" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/drawable/win_lose_bg.xml" value="0.1455" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/font/.xml" value="0.2299145299145299" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/font/aclonica.xml" value="0.2299145299145299" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_counting.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_counting_level_board.xml" value="0.264" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_counting_lose.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_counting_navigate.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_counting_win.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_formula_level_board.xml" value="0.264" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_formula_lose.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_formula_navigate.xml" value="0.1935897435897436" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_formula_win.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_progress.xml" value="0.1896551724137931" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_progress_level.xml" value="0.264" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_score_board.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_speak.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_speaking.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_speaking_level_board.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_speaking_lose.xml" value="0.18181818181818182" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_speaking_navigate.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_speaking_win.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_writing.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_writing_level_board.xml" value="0.264" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_writing_lose.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_writing_navigate.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/activity_writing_win.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/counting_navigation_dialog.xml" value="0.2" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/counting_success_round01.xml" value="0.20427350427350427" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/counting_success_round02.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/counting_success_round03.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/countiong_error.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/drop_down_item.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/formula_error_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/formula_navigation_dialog.xml" value="0.14743589743589744" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/formula_star01_dialogbox.xml" value="0.20427350427350427" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/formula_star02_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/formula_star03_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/fragment_login_tab.xml" value="0.10559210526315789" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/fragment_signup_tab.xml" value="0.15789473684210525" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/levelboardcorner.xml" value="0.20427350427350427" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/navigation_block01bg.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/speaker01.xml" value="0.1875" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/speaking_error_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/speaking_navigation_dialog.xml" value="0.4" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/speaking_success_round01_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/speaking_success_round02_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/speaking_success_round03_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/topbar.xml" value="0.25" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/writing_error_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/writing_navigation_dialog.xml" value="0.4" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/writing_success_round01_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/writing_success_round02_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/Learning App/app/src/main/res/layout/writing_success_round03_dialogbox.xml" value="0.20512820512820512" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/drawable/bgcontent.xml" value="0.2555" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_counting.xml" value="0.176" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_counting_level_board.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_counting_lose.xml" value="0.1875" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_counting_navigate.xml" value="0.3854166666666667" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_counting_win.xml" value="0.152" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_formula.xml" value="0.2" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_formula_level_board.xml" value="0.264" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_formula_lose.xml" value="0.1875" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_formula_navigate.xml" value="0.264" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_formula_win.xml" value="0.136" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_progress.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_progress_level.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_score_board.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_speaking.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_speaking_level_board.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_speaking_lose.xml" value="0.1875" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_speaking_navigate.xml" value="0.176" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_speaking_win.xml" value="0.2" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_writing.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_writing_level_board.xml" value="0.1" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_writing_lose.xml" value="0.2" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_writing_navigate.xml" value="0.28708133971291866" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/activity_writing_win.xml" value="0.176" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/counting_error_d1.xml" value="0.264" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/counting_error_d2.xml" value="0.24512820512820513" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/counting_navigation_dialog.xml" value="0.1875" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/counting_success_round01.xml" value="0.264" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/counting_success_round02.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/counting_success_round03.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/countiong_error.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/drop_down_item.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/dropdown_item.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/formula_error_d1.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/formula_error_d2.xml" value="0.24512820512820513" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/formula_error_dialogbox.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/formula_star01_dialogbox.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/formula_star02_dialogbox.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/formula_star03_dialogbox.xml" value="0.264" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/speaking_error_d1.xml" value="0.2" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/speaking_error_d2.xml" value="0.2" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/speaking_error_dialogbox.xml" value="0.2" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/speaking_success_round01_dialogbox.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/speaking_success_round02_dialogbox.xml" value="0.264" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/speaking_success_round03_dialogbox.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/writing_error_d1.xml" value="0.264" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/writing_error_d2.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/writing_error_dialogbox.xml" value="0.2" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/writing_success_round01_dialogbox.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/writing_success_round02_dialogbox.xml" value="0.25" />
+        <entry key="..\:/mobileApp/LearningApp-Mobile/app/src/main/res/layout/writing_success_round03_dialogbox.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.67" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

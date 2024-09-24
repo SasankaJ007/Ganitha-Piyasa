@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "89776319005",
+    "project_id": "learning-app-354c9",
+    "storage_bucket": "learning-app-354c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89776319005:android:0ca796e084e1f39c17f4f4",
+        "android_client_info": {
+          "package_name": "lk.SilverlineIT"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdPiFP4gY3OQwZYXhwEzs0fvU2Wunhru0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89776319005:android:d367900f9a80429917f4f4",
+        "android_client_info": {
+          "package_name": "lk.learningApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdPiFP4gY3OQwZYXhwEzs0fvU2Wunhru0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

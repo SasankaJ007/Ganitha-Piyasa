@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="220dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/SuccessRound01ConstraintLayout"
+    android:background="@drawable/curves"
+    android:backgroundTint="@color/block1color">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutDialog"
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/curves"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/successTile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="50dp"
+            android:text="ඔබ ලබාදුන් පිළිතුර වැරදියි! නැවත උත්සාහ කරමු."
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            app:layout_constraintTop_toTopOf="@+id/layoutDialog" />
+
+        <TextView
+            android:id="@+id/successDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="25dp"
+            android:text="වැරදියි !"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/successDone"
+            app:layout_constraintTop_toTopOf="@+id/successTile" />
+
+        <Button
+            android:id="@+id/successDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="#FF0000"
+            android:text="උත්සාහ කරන්න"
+            android:textSize="14sp"
+            app:cornerRadius="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/successDes" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/error"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/layoutDialog"
+        app:layout_constraintBottom_toTopOf="@id/layoutDialog" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

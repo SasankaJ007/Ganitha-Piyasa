@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormulaLose">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#F3FAFF"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/test02"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="mrdohs"
+            android:textColor="@color/black"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#F3FAFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topLayout1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:id="@+id/checkBlock1"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/navigation_block01"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/regular"
+                android:text=",nd.;a ld,h "
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/curves"
+                android:fontFamily="@font/archivo_black"
+                android:paddingTop="8dp"
+                android:text="80 sec"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/checkBlock2"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/navigation_block01"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBlock1">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/regular"
+                android:gravity="left"
+                android:text="ksjerÈ nj"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txtAcu"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/curves"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center_vertical"
+                android:text="25%"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/checkBlock3"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/navigation_block01"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBlock2">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:fontFamily="@font/regular"
+                android:text="uÜgu"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txtLev"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/curves"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:text="දුර්වලයි"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:fontFamily="@font/regular"
+            android:paddingTop="20dp"
+            android:text="Tn B,Õ jghg hdug iqÿiqlï iïmQ¾K lr fkdue;¡"
+            android:textAlignment="center"
+            android:textColor="#F44823"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/checkBlock3"
+            app:layout_constraintStart_toStartOf="@+id/checkBlock3"
+            app:layout_constraintTop_toBottomOf="@+id/checkBlock3" />
+
+        <RelativeLayout
+            android:id="@+id/backGame"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/curves"
+            android:backgroundTint="#19e63d"
+            app:layout_constraintEnd_toEndOf="@+id/txt"
+            app:layout_constraintStart_toStartOf="@+id/txt"
+            app:layout_constraintTop_toBottomOf="@+id/txt">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/regular"
+                android:paddingTop="10dp"
+                android:text=" kej; W;aidy lruq"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:paddingBottom="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/backGame"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/c6" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

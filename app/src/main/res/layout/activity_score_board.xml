@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreBoard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#F3FAFF"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:id="@+id/btnHome"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/arrow_back_ios_24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/test02"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text=",l=kq mqjrej"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_550sdp"
+        android:layout_marginTop="70dp"
+        android:background="#F3FAFF"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/checkBlock1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/curves"
+            android:backgroundTint="@color/block1color"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/regular"
+                android:text="b,lalï lshjkak"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtSpeaking"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/curves"
+                android:fontFamily="@font/archivo_black"
+                android:text="00"
+                android:textAlignment="center"
+                android:textColor="@color/block1color"
+                android:textSize="30sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/checkBlock2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="155dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/curves"
+            android:backgroundTint="@color/block2color"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/regular"
+                android:text="b,lalï ,shkak"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtWriting"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/curves"
+                android:fontFamily="@font/archivo_black"
+                android:text="00"
+                android:textAlignment="center"
+                android:textColor="@color/block2color"
+                android:textSize="30sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/checkBlock3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/curves"
+            android:backgroundTint="@color/block3color"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/regular"
+                android:text="ld,h ukskak"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtCounting"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/curves"
+                android:fontFamily="@font/archivo_black"
+                android:text="00"
+                android:textAlignment="center"
+                android:textColor="@color/block3color"
+                android:textSize="30sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/checkBlock4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/curves"
+            android:backgroundTint="@color/block4color"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="left"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/regular"
+                android:text=".Ks; l¾u"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtLogic"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/curves"
+                android:fontFamily="@font/archivo_black"
+                android:text="00"
+                android:textAlignment="center"
+                android:textColor="@color/block4color"
+                android:textSize="30sp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/c5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
